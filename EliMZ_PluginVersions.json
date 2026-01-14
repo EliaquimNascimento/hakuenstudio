@@ -1,3 +1,6 @@
 {
-  "EliMZ_Book": "6.1.0"
+  "EliMZ_Book": {
+    "version": "6.1.0",
+    "url": "https://hakuenstudio.itch.io/eli-book-rpg-maker-mv-mz"
+  }
 }
