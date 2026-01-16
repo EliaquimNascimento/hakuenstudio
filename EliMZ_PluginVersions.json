@@ -1,6 +1,398 @@
 {
+  "EliMZ_AnimatedFaces": {
+    "obs":"true",
+    "version": "0.0.0",
+    "url": "https://hakuenstudio.itch.io/eli-animated-faces-for-rpg-maker-mz"
+  },
+  "EliMZ_BackgroundManagerPro": {
+    "version": "1.1.2",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-background-manager-for-rpg-maker-mv-mz"
+  },
+  "EliMZ_BalloonPosition": {
+    "version": "3.0.0",
+    "url": "https://hakuenstudio.itch.io/eli-balloon-position-for-rpg-maker-mv"
+  },
+  "EliMZ_BattleResults": {
+    "version": "1.2.4",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-battle-results-for-rpg-maker"
+  },
+  "EliMZ_BattleSounds": {
+    "version": "1.3.1",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-battle-sounds-for-rpg-maker-mz"
+  },
+  "EliMZ_BitmapFontPro": {
+    "version": "2.4.0",
+    "url": "https://hakuenstudio.itch.io/eli-bitmap-font-for-rpg-maker"
+  },
   "EliMZ_Book": {
-    "version": "6.1.0",
+    "version": "6.0.0",
     "url": "https://hakuenstudio.itch.io/eli-book-rpg-maker-mv-mz"
+  },
+  "EliMZ_ButtonCommonEvents": {
+    "version": "1.7.2",
+    "url": "https://hakuenstudio.itch.io/eli-button-common-events-for-rpg-maker-mz"
+  },
+  "EliMZ_CameraManager": {
+    "version": "1.1.6",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-camera-manager-for-rpg-maker"
+  },
+  "EliMZ_CapParameterControl": {
+    "version": "1.2.6",
+    "url": "https://hakuenstudio.itch.io/cap-parameter-control-for-rpg-maker-mz"
+  },
+  "EliMZ_CharacterFrames": {
+    "version": "1.2.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-character-frames-for-rpg-maker"
+  },
+  "EliMZ_CharacterGeneratorPro": {
+    "version": "2.0.2",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-character-generator-for-rpg-maker-mz"
+  },
+  "EliMZ_CharacterPoses": {
+    "version": "2.1.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-character-poses-for-rpg-maker"
+  },
+  "EliMZ_CharManager": {
+    "version": "2.2.1",
+    "url": "https://hakuenstudio.itch.io/eli-character-manager-for-rpg-maker"
+  },
+  "EliMZ_CheckPoint": {
+    "version": "1.3.0",
+    "url": "https://hakuenstudio.itch.io/eli-checkpoint-rpg-maker-mv"
+  },
+  "EliMZ_CheckPointWindow": {
+    "version": "2.2.2",
+    "url": "https://hakuenstudio.itch.io/eli-checkpoint-window-rpg-maker-mv"
+  },
+  "EliMZ_ChoiceManager": {
+    "version": "2.1.6",
+    "url": "https://hakuenstudio.itch.io/eli-choice-manager-for-rpg-maker"
+  },
+  "EliMZ_ChoicePictures": {
+    "version": "1.3.3",
+    "url": "https://hakuenstudio.itch.io/eli-choice-pictures-for-rpg-maker-mz"
+  },
+  "EliMZ_ClassCurves": {
+    "version": "2.4.3",
+    "url": "https://hakuenstudio.itch.io/eli-class-curve-for-rpg-maker"
+  },
+  "EliMZ_ClassPromotion": {
+    "version": "1.1.6",
+    "url": "https://hakuenstudio.itch.io/eli-class-promotion"
+  },
+  "EliMZ_ControlEvents": {
+    "version": "1.1.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-control-events-for-rpg-maker"
+  },
+  "EliMZ_CustomNewGame": {
+    "version": "1.4.3",
+    "url": "https://hakuenstudio.itch.io/eli-customnewgame-rpg-maker-mv"
+  },
+  "EliMZ_CustomParameters": {
+    "version": "2.0.3",
+    "url": "https://hakuenstudio.itch.io/eli-custom-parameters-for-rpg-maker"
+  },
+  "EliMZ_CustomStatusMenu": {
+    "version": "1.1.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-custom-status-menu-for-rpg-maker-mz"
+  },
+  "EliMZ_DeathSprites": {
+    "version": "1.0.3",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-death-battler-sprites-for-rpg-maker"
+  },
+  "EliMZ_DiagonalCharacters": {
+    "version": "1.0.2",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-diagonal-characters-for-rpg-maker"
+  },
+  "EliMZ_DynamicParameters": {
+    "version": "2.0.9",
+    "url": "https://hakuenstudio.itch.io/eli-dynamic-parameters-for-rpg-maker"
+  },
+  "EliMZ_EasingPicture": {
+    "version": "1.2.4",
+    "url": "https://hakuenstudio.itch.io/eli-easing-picture-for-rpg-maker-mz"
+  },
+  "EliMZ_EmptyTileColor": {
+    "version": "1.1.0",
+    "url": "https://hakuenstudio.itch.io/eli-empty-tile-colors-for-rpg-maker-mz"
+  },
+  "EliMZ_EnemyClass": {
+    "version": "1.3.2",
+    "url": "https://hakuenstudio.itch.io/eli-enemy-class-for-rpg-maker"
+  },
+  "EliMZ_EscapeCodes": {
+    "version": "3.2.1",
+    "url": "https://hakuenstudio.itch.io/eli-escape-codes-for-rpg-maker-mv"
+  },
+  "EliMZ_ExpByLevel": {
+    "version": "1.2.2",
+    "url": "https://hakuenstudio.itch.io/eli-exp-by-level-for-rpg-maker"
+  },
+  "EliMZ_ExtraMapScroll": {
+    "version": "1.2.3",
+    "url": "https://hakuenstudio.itch.io/extra-map-scroll-for-rpg-maker-mz"
+  },
+  "EliMZ_ExtraTriggerPro": {
+    "version": "3.1.0",
+    "url": "https://hakuenstudio.itch.io/eli-extratrigger-rpg-maker-mv"
+  },
+  "EliMZ_FaceReaction": {
+    "version": "1.1.2",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-faces-reaction-for-rpg-maker"
+  },
+  "EliMZ_FadeColors": {
+    "version": "1.0.9",
+    "url": "https://hakuenstudio.itch.io/eli-fade-colors-for-rpg-maker-mz"
+  },
+  "EliMZ_FindIdByName": {
+    "version": "1.2.5",
+    "url": "https://hakuenstudio.itch.io/eli-find-id-by-name-for-rpg-maker-mv"
+  },
+  "EliMZ_FontManagerPro": {
+    "version": "1.2.4",
+    "url": "https://hakuenstudio.itch.io/eli-font-manager-for-rpg-maker"
+  },
+  "EliMZ_FrameSkip": {
+    "version": "1.0.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-frame-skip-for-rpg-maker-mz"
+  },
+  "EliMZ_GameFilters": {
+    "version": "1.3.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-game-filter-for-rpg-maker"
+  },
+  "EliMZ_GameFrame": {
+    "version": "2.0.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-game-frame-for-rpg-maker"
+  },
+  "EliMZ_GlobalText": {
+    "version": "1.0.10",
+    "url": "https://hakuenstudio.itch.io/eli-super-text"
+  },
+  "EliMZ_GoldIcon": {
+    "version": "1.0.1",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-gold-icon-for-rpg-maker-mv-mz"
+  },
+  "EliMZ_HelpWindows": {
+    "version": "1.2.3",
+    "url": "https://hakuenstudio.itch.io/eli-help-windows-for-rpg-maker-mv"
+  },
+  "EliMZ_HoldFade": {
+    "version": "1.1.2",
+    "url": "https://hakuenstudio.itch.io/eli-hold-fade-for-rpg-maker-mz"
+  },
+  "EliMZ_InfoMenuPro": {
+    "version": "2.0.1",
+    "url": "https://hakuenstudio.itch.io/eli-info-menu-for-rpg-maker"
+  },
+  "EliMZ_ItemSounds": {
+    "version": "1.1.2",
+    "url": "https://hakuenstudio.itch.io/eli-item-sounds-for-rpg-maker-mz"
+  },
+  "EliMZ_JumpSystem": {
+    "version": "2.5.0",
+    "url": "https://hakuenstudio.itch.io/eli-jump-system-for-rpg-maker-mv"
+  },
+  "EliMZ_MainMenuIndividualStatus": {
+    "version": "1.0.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-main-menu-individual-status-window-for-rpg-maker-mz"
+  },
+  "EliMZ_MapLayers": {
+    "version": "1.1.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-map-layers-for-rpg-maker-mz"
+  },
+  "EliMZ_MapReveal": {
+    "version": "1.4.1",
+    "url": "https://hakuenstudio.itch.io/eli-reveal-map-rpg-maker-mv"
+  },
+  "EliMZ_MapSelect": {
+    "version": "2.1.8",
+    "url": "https://hakuenstudio.itch.io/eli-map-select-for-rpg-maker-mz"
+  },
+  "EliMZ_MapTransitions": {
+    "version": "1.1.1",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-map-transitions-for-rpg-maker-mz"
+  },
+  "EliMZ_MaxItems": {
+    "version": "1.3.0",
+    "url": "https://hakuenstudio.itch.io/eli-max-items-for-rpg-maker"
+  },
+  "EliMZ_MessageActions": {
+    "version": "2.1.4",
+    "url": "https://hakuenstudio.itch.io/eli-message-actions-for-rpg-maker"
+  },
+  "EliMZ_MessageCommonEvent": {
+    "version": "1.3.0",
+    "url": "https://hakuenstudio.itch.io/eli-message-common-event-for-rpg-maker"
+  },
+  "EliMZ_MessageManager": {
+    "version": "1.2.2",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-message-manager-for-rpg-maker"
+  },
+  "EliMZ_MessageScroll": {
+    "version": "1.0.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-message-scroll-for-rpg-maker"
+  },
+  "EliMZ_MessageSounds": {
+    "version": "1.1.1",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-message-sounds-for-rpg-maker-mz/"
+  },
+  "EliMZ_MinimapPro": {
+    "version": "2.3.3",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-minimap"
+  },
+  "EliMZ_MobileControls": {
+    "obs":"true",
+    "version": "0.0.0",
+    "url": "https://hakuenstudio.itch.io/eli-mobile-controls-for-rpg-maker"
+  },
+  "EliMZ_MouseCommonEvents": {
+    "version": "1.0.1",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-mouse-common-events"
+  },
+  "EliMZ_NoteWeather": {
+    "version": "1.3.0",
+    "url": "https://hakuenstudio.itch.io/eli-noteweather-rpg-maker-mv"
+  },
+  "EliMZ_NumberComma": {
+    "version": "1.0.2",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-number-comma-for-rpg-maker"
+  },
+  "EliMZ_PartyLeaderCommonEvent": {
+    "version": "1.0.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-party-leader-common-event-rpg-maker-mz"
+  },
+  "EliMZ_PauseGame": {
+    "version": "3.1.0",
+    "url": "https://hakuenstudio.itch.io/eli-pause-game-for-rpg-maker-mv"
+  },
+  "EliMZ_PictureManager": {
+    "version": "1.4.5",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-picture-manager-for-rpg-maker-mz"
+  },
+  "EliMZ_Pictures": {
+    "version": "1.4.2",
+    "url": "https://hakuenstudio.itch.io/eli-enhanced-pictures"
+  },
+  "EliMZ_PixelPerfect": {
+    "version": "0.0.0",
+    "url": ""
+  },
+  "EliMZ_PlatformEventPro": {
+    "version": "1.2.3",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-platform-events-for-rpg-maker-mv-mz"
+  },
+  "EliMZ_PressStart": {
+    "version": "3.0.0",
+    "url": "https://hakuenstudio.itch.io/eli-press-start-for-rpg-maker-mv"
+  },
+  "EliMZ_QOLCommands_1": {
+    "version": "2.3.0",
+    "url": "https://hakuenstudio.itch.io/eli-qol-commands-1-for-rpg-maker"
+  },
+  "EliMZ_QOLCommands_2": {
+    "version": "1.2.0",
+    "url": "https://hakuenstudio.itch.io/eli-qol-commands-2-for-rpg-maker"
+  },
+  "EliMZ_QuitMenuCommonEvent": {
+    "version": "1.1.1",
+    "url": "https://hakuenstudio.itch.io/eli-quitmenucommonevent-rpg-maker-mv"
+  },
+  "EliMZ_RadioPlayer": {
+    "version": "1.0.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-radio-for-rpg-maker-mz"
+  },
+  "EliMZ_RealTime": {
+    "version": "1.1.1",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-real-time-for-rpg-maker-mz"
+  },
+  "EliMZ_RTSMouseCamera": {
+    "version": "1.0.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-rts-mouse-camera-for-rpg-maker-mz"
+  },
+  "EliMZ_SaveFileManager": {
+    "version": "1.2.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-save-file-manager-for-rpg-maker-mz"
+  },
+  "EliMZ_SealAndLockEquip": {
+    "version": "1.3.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-lock-and-seal-equipment-for-rpg-maker"
+  },
+  "EliMZ_SecretEffects": {
+    "version": "1.0.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-secretpassive-effects-for-rpg-maker"
+  },
+  "EliMZ_SelfSwitches": {
+    "obs": "true",
+    "version": "0.0.0",
+    "url": "https://hakuenstudio.itch.io/eli-self-switches-for-rpg-maker-mz"
+  },
+  "EliMZ_SelfVariables": {
+    "version": "2.2.0",
+    "url": "https://hakuenstudio.itch.io/eli-self-variables-for-rpg-maker-mz"
+  },
+  "EliMZ_SingleItemSlot": {
+    "version": "2.0.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-single-item-slot-for-rpg-maker"
+  },
+  "EliMZ_SkillCost": {
+    "version": "2.1.3",
+    "url": "https://hakuenstudio.itch.io/eli-skill-costs-for-rpg-maker"
+  },
+  "EliMZ_SmartSpeaker": {
+    "version": "1.4.0",
+    "url": "https://hakuenstudio.itch.io/eli-smart-speaker-for-rpg-maker"
+  },
+  "EliMZ_SoundTest": {
+    "version": "1.5.0",
+    "url": "https://hakuenstudio.itch.io/eli-sound-test-for-rpg-maker"
+  },
+  "EliMZ_StaticExp": {
+    "version": "1.2.0",
+    "url": "https://hakuenstudio.itch.io/eli-static-exp-for-rpg-maker-mz"
+  },
+  "EliMZ_StatusGraphics": {
+    "version": "1.0.1",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-status-graphics-for-rpg-maker"
+  },
+  "EliMZ_Switches": {
+    "obs": "true",
+    "version": "0.0.0",
+    "url": "https://hakuenstudio.itch.io/eli-devswitches-rpg-maker-mv"
+  },
+  "EliMZ_TeleportPlayer": {
+    "version": "1.1.2",
+    "url": "https://hakuenstudio.itch.io/eli-teleport-player"
+  },
+  "EliMZ_TextWindow": {
+    "version": "2.0.3",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-text-window-for-rpg-maker-mv-mz"
+  },
+  "EliMZ_Timer": {
+    "version": "1.3.0",
+    "url": "https://hakuenstudio.itch.io/eli-timer-for-rpg-maker-mv"
+  },
+  "EliMZ_TpSystem": {
+    "version": "1.4.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-tp-system-for-rpg-maker"
+  },
+  "EliMZ_TraitManager": {
+    "version": "1.0.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-trait-manager-for-rpg-maker-mz"
+  },
+  "EliMZ_VisualItemPro": {
+    "version": "2.1.0",
+    "url": "https://hakuenstudio.itch.io/eli-visual-items-for-rpg-maker"
+  },
+  "EliMZ_WeaknessBonus": {
+    "version": "1.1.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-weakness-bonus"
+  },
+  "EliMZ_WindowSkin": {
+    "version": "3.0.1",
+    "url": "https://hakuenstudio.itch.io/eli-change-window-skin-for-rpg-maker"
+  },
+  "EliMZ_Zoom": {
+    "version": "1.3.1",
+    "url": "https://hakuenstudio.itch.io/eli-zoom-for-rpg-maker-mz"
   }
 }
