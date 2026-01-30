@@ -1,7 +1,6 @@
 {
   "EliMZ_AnimatedFaces": {
-    "obs":"true",
-    "version": "0.0.0",
+    "version": "3.0.0",
     "url": "https://hakuenstudio.itch.io/eli-animated-faces-for-rpg-maker-mz"
   },
   "EliMZ_BackgroundManagerPro": {
@@ -25,7 +24,7 @@
     "url": "https://hakuenstudio.itch.io/eli-bitmap-font-for-rpg-maker"
   },
   "EliMZ_Book": {
-    "version": "6.0.0",
+    "version": "6.0.1",
     "url": "https://hakuenstudio.itch.io/eli-book-rpg-maker-mv-mz"
   },
   "EliMZ_ButtonCommonEvents": {
@@ -139,6 +138,10 @@
   "EliMZ_FaceReaction": {
     "version": "1.1.2",
     "url": "https://hakuenstudio.itch.io/hakuen-studio-faces-reaction-for-rpg-maker"
+  },
+  "EliMZ_FaceWindow": {
+    "version": "3.0.0",
+    "url": "https://hakuenstudio.itch.io/eli-face-window-for-rpg-maker-mz"
   },
   "EliMZ_FadeColors": {
     "version": "1.0.9",
@@ -274,8 +277,8 @@
     "url": "https://hakuenstudio.itch.io/eli-enhanced-pictures"
   },
   "EliMZ_PixelPerfect": {
-    "version": "0.0.0",
-    "url": ""
+    "version": "1.0.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-pixel-perfect-for-rpg-maker-mz"
   },
   "EliMZ_PlatformEventPro": {
     "version": "1.2.3",
