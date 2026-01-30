@@ -2,24 +2,20 @@
 
 :root{
     /* Palette */
-    --color-dark-ink: #1E1E2C;    /* deep navy - good for text on bright buttons */
-    --color-accent: #FFED00;      /* vivid yellow - highlights, primary hover */
-    --color-primary: #1B8AA1;     /* teal - primary buttons */
-    --color-link: #64AABA;        /* link / subtle accents */
-    --color-muted: #ABCBCE;       /* light muted - secondary text / borders */
-    --color-white: #FFFFFF;       /* main text on dark backgrounds */
-    --color-danger: #BE1522;      /* errors / destructive actions */
-    --color-gray-1: #616669;      /* mid gray */
-    --color-gray-2: #373939;      /* dark gray (background texture) */
+    --color-dark-ink: #1E1E2C;
+    --color-accent: #FFED00;
+    --color-primary: #1B8AA1;
+    --color-link: #64AABA;
+    --color-muted: #ABCBCE;
+    --color-white: #FFFFFF;
+    --color-danger: #BE1522;
+    --color-gray-1: #616669;
+    --color-gray-2: #373939;
 
-    /* spacing / transitions */
     --btn-radius: 4px;
     --transition-fast: 120ms ease-in-out;
 }
 
-/* base layout */
-
-/* Center header_buy_row */
 .header_buy_row{
     display: flex;
     flex-direction: column;
@@ -57,7 +53,6 @@
     color: var(--color-white);
 }
 
-/* Images inside figures start slightly reduced so hover brings them to full size */
 #inner_column figure img{
     border-style: double !important;
     border-color: var(--color-primary) !important;
@@ -72,12 +67,10 @@
     transition: transform 220ms cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
-/* On hover the image scales up to natural 1.00 (no overshoot) */
 #inner_column figure:hover img{
     transform: scale(1);
 }
 
-/* Generic image hover zoom (applies inside inner_column only) (applies when image is not wrapped in a <figure>) */
 #inner_column img{
     border-style: double !important;
     border-color: var(--color-primary) !important;
@@ -108,7 +101,6 @@
 }
 
 /* --------------------------------- HEADERS -------------------------------- */
-/* Header links use accent color */
 #inner_column h1 a, #inner_column h2 a, #inner_column h3 a, #inner_column h4 a, #inner_column h5 a, #inner_column h6 a{
     color: var(--color-accent) !important;
     text-decoration: underline;
@@ -202,11 +194,6 @@
     display: none !important;
 }
 
-/* The names of the files to be downloaded. */
-/* .upload_list_widget {
-    color:chartreuse
-} */
-
 #purchase {
     visibility: hidden;
     position: relative;
@@ -269,29 +256,24 @@ iframe {
     height: 280px;
 }
 
-/* Responsive buy button fixes */
-
-/* Layout wrapper for the buy row: keep items on one line when possible, but allow wrapping */
 .buy_row .button_message{
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    flex-wrap: wrap; /* allow items to wrap when space is tight */
+    flex-wrap: wrap;
 }
 
-/* Make the button itself able to wrap text instead of overflowing */
 .buy_row .button{
-    white-space: normal;         /* allow text to wrap */
-    word-break: break-word;      /* break long words/URLs if needed */
-    padding: 0.45rem 0.9rem;     /* slightly wider padding to accommodate wrap */
-    min-width: 0;                /* allow flex children to shrink below intrinsic width */
+    white-space: normal;
+    word-break: break-word;
+    padding: 0.45rem 0.9rem;
+    min-width: 0;
     box-sizing: border-box;
     display: inline-flex;
     align-items: center;
     justify-content: center;
 }
 
-/* Ensure price / sale block sits nicely beside the button and doesn't overlap */
 .buy_row .buy_message{
     display: flex;
     align-items: center;
@@ -299,7 +281,6 @@ iframe {
     flex: 0 0 auto;
 }
 
-/* For very narrow screens stack the elements vertically and make button full-width */
 @media (max-width: 520px){
     .buy_row .button_message{
         flex-direction: column;
@@ -316,24 +297,20 @@ iframe {
     }
 }
 
-/* Utility helpers */
 .text-muted{ color: var(--color-muted); }
 .text-danger{ color: var(--color-danger); }
 .bg-muted{ background: rgba(255,255,255,0.02); }
 
-/* Accessibility: focus outlines */
 :focus{
     outline: none !important;
     box-shadow: none !important;
 }
 
-/* Remove dotted/dashed focus outline on Firefox and Chromium */
 :focus-visible{
     outline: none !important;
     box-shadow: none !important;
 }
 
-/* Remove External Link e red border */
 .user_formatted a[rel~=nofollow]:hover>img, .user_formatted a[rel~=nofollow]:focus>img{
     box-shadow: none;
 }
