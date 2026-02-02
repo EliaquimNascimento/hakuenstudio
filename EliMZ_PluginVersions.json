@@ -1,6 +1,6 @@
 {
   "EliMZ_AnimatedFaces": {
-    "version": "3.0.0",
+    "version": "3.0.1",
     "url": "https://hakuenstudio.itch.io/eli-animated-faces-for-rpg-maker-mz"
   },
   "EliMZ_BackgroundManagerPro": {
@@ -24,7 +24,7 @@
     "url": "https://hakuenstudio.itch.io/eli-bitmap-font-for-rpg-maker"
   },
   "EliMZ_Book": {
-    "version": "6.0.1",
+    "version": "6.0.2",
     "url": "https://hakuenstudio.itch.io/eli-book-rpg-maker-mv-mz"
   },
   "EliMZ_ButtonCommonEvents": {
@@ -140,7 +140,7 @@
     "url": "https://hakuenstudio.itch.io/hakuen-studio-faces-reaction-for-rpg-maker"
   },
   "EliMZ_FaceWindow": {
-    "version": "3.0.0",
+    "version": "3.0.1",
     "url": "https://hakuenstudio.itch.io/eli-face-window-for-rpg-maker-mz"
   },
   "EliMZ_FadeColors": {
@@ -228,7 +228,7 @@
     "url": "https://hakuenstudio.itch.io/eli-message-common-event-for-rpg-maker"
   },
   "EliMZ_MessageManager": {
-    "version": "1.2.2",
+    "version": "1.2.3",
     "url": "https://hakuenstudio.itch.io/hakuen-studio-message-manager-for-rpg-maker"
   },
   "EliMZ_MessageScroll": {
