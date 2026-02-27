@@ -28,7 +28,7 @@
     "url": "https://hakuenstudio.itch.io/eli-book-rpg-maker-mv-mz"
   },
   "EliMZ_ButtonCommonEvents": {
-    "version": "1.7.2",
+    "version": "1.7.3",
     "url": "https://hakuenstudio.itch.io/eli-button-common-events-for-rpg-maker-mz"
   },
   "EliMZ_CameraManager": {
@@ -156,7 +156,7 @@
     "url": "https://hakuenstudio.itch.io/eli-font-manager-for-rpg-maker"
   },
   "EliMZ_FrameSkip": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "url": "https://hakuenstudio.itch.io/hakuen-studio-frame-skip-for-rpg-maker-mz"
   },
   "EliMZ_GameFilters": {
