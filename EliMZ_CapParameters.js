@@ -27,6 +27,8 @@ https://hakuenstudio.itch.io/XXXXXXXXXXXXXXXXXXXXXXXX/community
 
 ♦ FEATURES
 
+Cap regular parameter values.
+
 @param atk
 @text Attack
 @type number
