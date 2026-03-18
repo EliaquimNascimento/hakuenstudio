@@ -24,7 +24,7 @@
     "url": "https://hakuenstudio.itch.io/eli-bitmap-font-for-rpg-maker"
   },
   "EliMZ_Book": {
-    "version": "6.0.2",
+    "version": "6.1.0",
     "url": "https://hakuenstudio.itch.io/eli-book-rpg-maker-mv-mz"
   },
   "EliMZ_ButtonCommonEvents": {
@@ -106,6 +106,10 @@
   "EliMZ_DynamicParameters": {
     "version": "2.0.9",
     "url": "https://hakuenstudio.itch.io/eli-dynamic-parameters-for-rpg-maker"
+  },
+  "EliMZ_DynamicTroops": {
+    "version": "1.0.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-dynamic-troops-for-rpg-maker-mz"
   },
   "EliMZ_EasingPicture": {
     "version": "1.2.4",
@@ -385,6 +389,14 @@
   "EliMZ_TraitManager": {
     "version": "1.0.0",
     "url": "https://hakuenstudio.itch.io/hakuen-studio-trait-manager-for-rpg-maker-mz"
+  },
+  "EliMZ_TroopConditions": {
+    "version": "1.0.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-troop-conditions-for-rpg-maker-mz"
+  },
+  "EliMZ_TroopLimits": {
+    "version": "1.0.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-troop-limits-for-rpg-maker-mz"
   },
   "EliMZ_VisualItemPro": {
     "version": "2.1.0",
