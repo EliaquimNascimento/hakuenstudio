@@ -242,18 +242,7 @@
     margin-left: auto !important;
     margin-right: auto !important;
     width: 500px !important;
-    height: 280px !important;
-}
-
-iframe {
-    border-style: double !important;
-    border-color: var(--color-primary) !important;
-    border-width: thick !important;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-    height: 280px;
+    height: 400px !important;
 }
 
 .buy_row .button_message{
