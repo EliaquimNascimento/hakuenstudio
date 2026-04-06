@@ -24,7 +24,7 @@
     "url": "https://hakuenstudio.itch.io/eli-bitmap-font-for-rpg-maker"
   },
   "EliMZ_Book": {
-    "version": "6.1.0",
+    "version": "6.1.1",
     "url": "https://hakuenstudio.itch.io/eli-book-rpg-maker-mv-mz"
   },
   "EliMZ_ButtonCommonEvents": {
@@ -338,7 +338,7 @@
     "url": "https://hakuenstudio.itch.io/eli-self-switches-for-rpg-maker-mz"
   },
   "EliMZ_SelfVariables": {
-    "version": "2.2.0",
+    "version": "2.2.1",
     "url": "https://hakuenstudio.itch.io/eli-self-variables-for-rpg-maker-mz"
   },
   "EliMZ_SingleItemSlot": {
