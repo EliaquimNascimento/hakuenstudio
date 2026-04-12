@@ -216,9 +216,9 @@
     color: var(--color-dark-ink);
 }
 
-.embed_preload youtube_preload{
+/* .embed_preload youtube_preload{
 
-}
+} */
 
 .embed_preload {
     display: block !important;
