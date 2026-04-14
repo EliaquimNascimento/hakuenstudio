@@ -1,8 +1,30 @@
 {
-  "EliMZ_HideParamsFromStatus":{
+  "EliMZ_TestUpdateLog1":{
     "version": "1.0.1",
     "url": "https://hakuenstudio.itch.io/eli-animated-faces-for-rpg-maker-mz",
-    "log": "Set on the plugin parameter a list of the parameter ids you want to\nhide from status screen. The parameter ids are as follows:\n0: MHP\n1: MMP\n2: ATK"
+    "log": [
+      "Set on the plugin parameter a list of the parameter ids you want to",
+      "hide from status screen. The parameter ids are as follows:",
+      "0: MHP\n1: MMP\n2: ATK"
+    ]
+  },
+  "EliMZ_TestUpdateLog2":{
+    "version": "1.0.1",
+    "url": "https://hakuenstudio.itch.io/eli-animated-faces-for-rpg-maker-mz",
+    "log": [
+      "LOG2 Set on the plugin parameter a list of the parameter ids you want to",
+      "hide from status screen. The parameter ids are as follows:",
+      "0: MHP\n1: MMP\n2: ATK"
+    ]
+  },
+  "EliMZ_NewPluginTest":{
+    "version": "1.0.0",
+    "url": "https://hakuenstudio.itch.io/eli-animated-faces-for-rpg-maker-mz",
+    "log": [
+      "LOG2 Set on the plugin parameter a list of the parameter ids you want to",
+      "hide from status screen. The parameter ids are as follows:",
+      "0: MHP\n1: MMP\n2: ATK"
+    ]
   },
   "EliMZ_AnimatedFaces": {
     "version": "3.1.1",
