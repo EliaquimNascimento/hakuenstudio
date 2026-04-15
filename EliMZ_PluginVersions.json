@@ -2,29 +2,17 @@
   "EliMZ_TestUpdateLog1":{
     "version": "1.0.1",
     "url": "https://hakuenstudio.itch.io/eli-animated-faces-for-rpg-maker-mz",
-    "log": [
-      "Set on the plugin parameter a list of the parameter ids you want to",
-      "hide from status screen. The parameter ids are as follows:",
-      "0: MHP\n1: MMP\n2: ATK"
-    ]
+    "log": "<ul> <li>Added <strong>some utility</strong> functions to check for event triggers.</li> <li>Added a <em>plugin parameter</em> to control how the Iterate List note tag works. <a href=\"?tab=t.0#heading=h.36pck2m8ey8l\">Check help file here</a>.</li> <li>Added BattleManager.beforeSetup and afterSetup. To be used by other plugins.</li> <li>Added a new class to run a game interpreter inside code(passive Game_Interpreter).</li> <li>Added a way to verify how a battle was triggered: Map Random Encounters, Event Command, and Event Command(Same as random Encounter).</li> <li>Fixed an issue that the Eli.Input.mapGamepadButton was checking for defaultKeyboard keys when needed to check default gamepad keys.</li> </ul>"
   },
   "EliMZ_TestUpdateLog2":{
     "version": "1.0.1",
     "url": "https://hakuenstudio.itch.io/eli-animated-faces-for-rpg-maker-mz",
-    "log": [
-      "LOG2 Set on the plugin parameter a list of the parameter ids you want to",
-      "hide from status screen. The parameter ids are as follows:",
-      "0: MHP\n1: MMP\n2: ATK"
-    ]
+    "log": "<ul> <li>Added <strong>some utility</strong> functions to check for event triggers.</li> <li>Added a <em>plugin parameter</em> to control how the Iterate List note tag works. <a href=\"?tab=t.0#heading=h.36pck2m8ey8l\">Check help file here</a>.</li> <li>Added BattleManager.beforeSetup and afterSetup. To be used by other plugins.</li> <li>Added a new class to run a game interpreter inside code(passive Game_Interpreter).</li> <li>Added a way to verify how a battle was triggered: Map Random Encounters, Event Command, and Event Command(Same as random Encounter).</li> <li>Fixed an issue that the Eli.Input.mapGamepadButton was checking for defaultKeyboard keys when needed to check default gamepad keys.</li> </ul>"
   },
   "EliMZ_NewPluginTest":{
     "version": "1.0.0",
     "url": "https://hakuenstudio.itch.io/eli-animated-faces-for-rpg-maker-mz",
-    "log": [
-      "LOG2 Set on the plugin parameter a list of the parameter ids you want to",
-      "hide from status screen. The parameter ids are as follows:",
-      "0: MHP\n1: MMP\n2: ATK"
-    ]
+    "log": "<ul> <li>Added <strong>some utility</strong> functions to check for event triggers.</li> <li>Added a <em>plugin parameter</em> to control how the Iterate List note tag works. <a href=\"?tab=t.0#heading=h.36pck2m8ey8l\">Check help file here</a>.</li> <li>Added BattleManager.beforeSetup and afterSetup. To be used by other plugins.</li> <li>Added a new class to run a game interpreter inside code(passive Game_Interpreter).</li> <li>Added a way to verify how a battle was triggered: Map Random Encounters, Event Command, and Event Command(Same as random Encounter).</li> <li>Fixed an issue that the Eli.Input.mapGamepadButton was checking for defaultKeyboard keys when needed to check default gamepad keys.</li> </ul>"
   },
   "EliMZ_AnimatedFaces": {
     "version": "3.1.1",
