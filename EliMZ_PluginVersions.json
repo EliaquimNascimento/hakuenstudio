@@ -1,19 +1,4 @@
 {
-  "EliMZ_TestUpdateLog1":{
-    "version": "1.0.1",
-    "url": "https://hakuenstudio.itch.io/eli-animated-faces-for-rpg-maker-mz",
-    "log": "<ul> <li>Added <strong>some utility</strong> functions to check for event triggers.</li> <li>Added a <em>plugin parameter</em> to control how the Iterate List note tag works. <a href=\"?tab=t.0#heading=h.36pck2m8ey8l\">Check help file here</a>.</li> <li>Added BattleManager.beforeSetup and afterSetup. To be used by other plugins.</li> <li>Added a new class to run a game interpreter inside code(passive Game_Interpreter).</li> <li>Added a way to verify how a battle was triggered: Map Random Encounters, Event Command, and Event Command(Same as random Encounter).</li> <li>Fixed an issue that the Eli.Input.mapGamepadButton was checking for defaultKeyboard keys when needed to check default gamepad keys.</li> </ul>"
-  },
-  "EliMZ_TestUpdateLog2":{
-    "version": "1.0.1",
-    "url": "https://hakuenstudio.itch.io/eli-animated-faces-for-rpg-maker-mz",
-    "log": "<ul> <li>Added <strong>some utility</strong> functions to check for event triggers.</li> <li>Added a <em>plugin parameter</em> to control how the Iterate List note tag works. <a href=\"?tab=t.0#heading=h.36pck2m8ey8l\">Check help file here</a>.</li> <li>Added BattleManager.beforeSetup and afterSetup. To be used by other plugins.</li> <li>Added a new class to run a game interpreter inside code(passive Game_Interpreter).</li> <li>Added a way to verify how a battle was triggered: Map Random Encounters, Event Command, and Event Command(Same as random Encounter).</li> <li>Fixed an issue that the Eli.Input.mapGamepadButton was checking for defaultKeyboard keys when needed to check default gamepad keys.</li> </ul>"
-  },
-  "EliMZ_NewPluginTest":{
-    "version": "1.0.0",
-    "url": "https://hakuenstudio.itch.io/eli-animated-faces-for-rpg-maker-mz",
-    "log": "<ul> <li>Added <strong>some utility</strong> functions to check for event triggers.</li> <li>Added a <em>plugin parameter</em> to control how the Iterate List note tag works. <a href=\"?tab=t.0#heading=h.36pck2m8ey8l\">Check help file here</a>.</li> <li>Added BattleManager.beforeSetup and afterSetup. To be used by other plugins.</li> <li>Added a new class to run a game interpreter inside code(passive Game_Interpreter).</li> <li>Added a way to verify how a battle was triggered: Map Random Encounters, Event Command, and Event Command(Same as random Encounter).</li> <li>Fixed an issue that the Eli.Input.mapGamepadButton was checking for defaultKeyboard keys when needed to check default gamepad keys.</li> </ul>"
-  },
   "EliMZ_AnimatedFaces": {
     "version": "3.1.1",
     "url": "https://hakuenstudio.itch.io/eli-animated-faces-for-rpg-maker-mz"
@@ -39,8 +24,9 @@
     "url": "https://hakuenstudio.itch.io/eli-bitmap-font-for-rpg-maker"
   },
   "EliMZ_Book": {
-    "version": "6.1.1",
-    "url": "https://hakuenstudio.itch.io/eli-book-rpg-maker-mv-mz"
+    "version": "6.1.2",
+    "url": "https://hakuenstudio.itch.io/eli-book-rpg-maker-mv-mz",
+    "log": "<ul> <li>Added a direct argument on the forceFinish methods of the Anime classes. This will make it possible to finish an anime directly(applying the target value), according to the direction.</li> <li>Fixed an issue that the AnimeCollection class was calling a wrong function name to force finish all anime childrens.</li> <li>Fixed an issue that plugins on subfolders inside the plugins folders are not being scanned for updated versions.</li> <li>Made some changes on the style of the version update manager.</li> <li>Add a way to show an update log of the plugin you click to update.</li> </ul>"
   },
   "EliMZ_ButtonCommonEvents": {
     "version": "1.7.3",
@@ -440,5 +426,20 @@
   "EliMZ_Zoom": {
     "version": "1.3.1",
     "url": "https://hakuenstudio.itch.io/eli-zoom-for-rpg-maker-mz"
+  },
+  "EliMZ_TestUpdateLog1":{
+    "version": "1.0.1",
+    "url": "https://hakuenstudio.itch.io/eli-animated-faces-for-rpg-maker-mz",
+    "log": "<ul> <li>Added <strong>some utility</strong> functions to check for event triggers.</li> <li>Added a <em>plugin parameter</em> to control how the Iterate List note tag works. <a href=\"?tab=t.0#heading=h.36pck2m8ey8l\">Check help file here</a>.</li> <li>Added BattleManager.beforeSetup and afterSetup. To be used by other plugins.</li> <li>Added a new class to run a game interpreter inside code(passive Game_Interpreter).</li> <li>Added a way to verify how a battle was triggered: Map Random Encounters, Event Command, and Event Command(Same as random Encounter).</li> <li>Fixed an issue that the Eli.Input.mapGamepadButton was checking for defaultKeyboard keys when needed to check default gamepad keys.</li> </ul>"
+  },
+  "EliMZ_TestUpdateLog2":{
+    "version": "1.0.1",
+    "url": "https://hakuenstudio.itch.io/eli-animated-faces-for-rpg-maker-mz",
+    "log": ""
+  },
+  "EliMZ_NewPluginTest":{
+    "version": "1.0.0",
+    "url": "https://hakuenstudio.itch.io/eli-animated-faces-for-rpg-maker-mz",
+    "log": "<ul> <li>Added <strong>some utility</strong> functions to check for event triggers.</li> <li>Added a <em>plugin parameter</em> to control how the Iterate List note tag works. <a href=\"?tab=t.0#heading=h.36pck2m8ey8l\">Check help file here</a>.</li> <li>Added BattleManager.beforeSetup and afterSetup. To be used by other plugins.</li> <li>Added a new class to run a game interpreter inside code(passive Game_Interpreter).</li> <li>Added a way to verify how a battle was triggered: Map Random Encounters, Event Command, and Event Command(Same as random Encounter).</li> <li>Fixed an issue that the Eli.Input.mapGamepadButton was checking for defaultKeyboard keys when needed to check default gamepad keys.</li> </ul>"
   }
 }
