@@ -396,8 +396,9 @@
     "url": "https://hakuenstudio.itch.io/eli-timer-for-rpg-maker-mv"
   },
   "EliMZ_TpSystem": {
-    "version": "1.4.1",
-    "url": "https://hakuenstudio.itch.io/hakuen-studio-tp-system-for-rpg-maker"
+    "version": "1.4.2",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-tp-system-for-rpg-maker",
+    "log": "<ul> <li>There was no plugin code change, just a help file and parameter description change. Before I was wrongly set that “Charge Tp By Damage” changes how a battler gains tp when <em><strong>inflicting</strong></em> damage. But the correct description here is not when inflicting, but when <em><strong>receiving</strong></em> damage. Fixed both plugin parameters and help file.</li> <li>Added the missing note tag on the help file: “<strong>ChargeTpByActionFormula</strong>”</li> <li>The plugin will remain working the same way it was before.</li> </ul>"
   },
   "EliMZ_TraitManager": {
     "version": "1.0.0",
