@@ -65,9 +65,9 @@
     "url": "https://hakuenstudio.itch.io/eli-checkpoint-window-rpg-maker-mv"
   },
   "EliMZ_ChoiceManager": {
-    "version": "2.1.7",
+    "version": "2.1.8",
     "url": "https://hakuenstudio.itch.io/eli-choice-manager-for-rpg-maker",
-    "log": "<ul> <li>Fixed an issue that the default cursor color was not being applied when choices does not have any cursor color set.</li> </ul>"
+    "log": "<ul> <li>Fixed the crash caused by the last update: “TypeError Cannot set property 'Game_Picture_initialize' of undefined”</li> </ul>"
   },
   "EliMZ_ChoicePictures": {
     "version": "1.3.3",
