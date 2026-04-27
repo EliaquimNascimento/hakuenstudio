@@ -83,8 +83,9 @@
     "url": "https://hakuenstudio.itch.io/eli-class-promotion"
   },
   "EliMZ_ControlEvents": {
-    "version": "1.1.0",
-    "url": "https://hakuenstudio.itch.io/hakuen-studio-control-events-for-rpg-maker"
+    "version": "2.0.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-control-events-for-rpg-maker",
+    "log": "<ul> <li>Removed the dependency of Eli Camera Manager. Now this plugin can work with or without Camera Manager.</li> <li>This will break the previous version. So continuing a previous save file with a previous version of this plugin will not work. You need to restart a new game</li> <li>Added a Focus Camera option to the Control Character plugin command.</li> <li>Added camera movement modes for controlling a character and returning control to the player.</li> <li>Added compatibility with Eli Jump System so controlled characters can jump using player rules.</li> <li>Changed Help file</li> </ul>"
   },
   "EliMZ_CustomNewGame": {
     "version": "1.4.3",
