@@ -188,8 +188,9 @@
     "url": "https://hakuenstudio.itch.io/hakuen-studio-game-frame-for-rpg-maker"
   },
   "EliMZ_GlobalText": {
-    "version": "1.0.10",
-    "url": "https://hakuenstudio.itch.io/eli-super-text"
+    "version": "1.1.0",
+    "url": "https://hakuenstudio.itch.io/eli-super-text",
+    "log": "<ul> <li>A big performance improvement using automatic mode: Before, all texts are drawn with the drawTextEx method when automatic mode is true. Even when they do not have any escape code. Now the plugin checks if there is an escape code first, before using drawTextEx.</li> <li>Added a new plugin parameter that lets you set up what windows you want to exclude from the plugin. So the plugin will not apply global text to them in any circumstance. Before, this was hardcoded for this windows: <em>Window_Shop, Window_ItemList, Window_NumberInput, Window_SkillList</em></li> <li>Changed help file</li> </ul>"
   },
   "EliMZ_GoldIcon": {
     "version": "1.0.1",
