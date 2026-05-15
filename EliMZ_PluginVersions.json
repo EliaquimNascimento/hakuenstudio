@@ -334,8 +334,9 @@
     "url": "https://hakuenstudio.itch.io/hakuen-studio-rts-mouse-camera-for-rpg-maker-mz"
   },
   "EliMZ_SaveFileManager": {
-    "version": "1.2.0",
-    "url": "https://hakuenstudio.itch.io/hakuen-studio-save-file-manager-for-rpg-maker-mz"
+    "version": "2.0.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-save-file-manager-for-rpg-maker-mz",
+    "log": "<ul> <li><strong>ATTENTION</strong>! This version breaks the previous one. If you update, you will need to start a new game and set up the plugin parameters again.</li> <li>Added a RogueLike / PermaDeath system: <ul> <li>Can prevent the player from saving into another save slot instead of the current one</li> <li>Can delete save files automatically before the game goes into the Game Over scene</li> <li>Added a switch that reflects the value of the permadeath.</li> <li>Added an optional window after hitting the new game to choose permadeath or not.</li> </ul> </li> <li>Optionally added a confirmation window when press ok on the slot files of the save and load scenes.</li> <li>Optionally add Copy and Delete commands to the confirmation window, so you can copy and delete slot files from the load and save scene!</li> <li>Fixed a rare issue that could happen when deleting a save file.</li> <li>Several performance upgrades.</li> </ul>"
   },
   "EliMZ_ScreenManager": {
     "version": "1.0.1",
