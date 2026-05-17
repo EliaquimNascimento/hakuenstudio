@@ -176,8 +176,9 @@
     "url": "https://hakuenstudio.itch.io/eli-font-manager-for-rpg-maker"
   },
   "EliMZ_FrameSkip": {
-    "version": "1.1.0",
-    "url": "https://hakuenstudio.itch.io/hakuen-studio-frame-skip-for-rpg-maker-mz"
+    "version": "1.2.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-frame-skip-for-rpg-maker-mz",
+    "log": "<ul> <li>Added a new plugin parameter: “Ignore Game Timer”. When set to true, the Game Timer count will not be affected by the fast forward.</li> </ul>"
   },
   "EliMZ_GameFilters": {
     "version": "1.3.0",
@@ -306,8 +307,9 @@
     "url": "https://hakuenstudio.itch.io/hakuen-studio-platform-events-for-rpg-maker-mv-mz"
   },
   "EliMZ_PressStart": {
-    "version": "4.0.0",
-    "url": "https://hakuenstudio.itch.io/eli-press-start-for-rpg-maker-mv"
+    "version": "4.1.0",
+    "url": "https://hakuenstudio.itch.io/eli-press-start-for-rpg-maker-mv",
+    "log": "<ul> <li>Added two new properties of the Press Start Sprite to animate: <ul> <li>Angle &amp; Hue.</li> </ul> </li> <li>Added Incremental type of animation. Unlike Initial/Target, this kind of animation will just add or subtract a value from the property, on each frame, as long as the animation lasts.</li> </ul>"
   },
   "EliMZ_QOLCommands_1": {
     "version": "2.3.0",
