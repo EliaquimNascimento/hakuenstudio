@@ -104,8 +104,9 @@
     "url": "https://hakuenstudio.itch.io/hakuen-studio-death-battler-sprites-for-rpg-maker"
   },
   "EliMZ_DiagonalCharacters": {
-    "version": "1.0.2",
-    "url": "https://hakuenstudio.itch.io/hakuen-studio-diagonal-characters-for-rpg-maker"
+    "version": "1.0.3",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-diagonal-characters-for-rpg-maker",
+    "log": "<ul> <li>Fixed an issue that the Enable/Disable Diagonal Move plugin command effect was being removed when a character changed image file. Meaning, if you disable a character from moving diagonally, if he changed image and that image has a diagonal movement/sprite tag, the plugin command was being overridden by it.</li> <li>Added a new argument called “Default” on the Enable/Disable Diagonal Move plugin command. This argument will remove the forced state of the plugin command and let the characters get their diagonal movement from their filenames again.</li> <li>Fixed an issue that characters with empty filenames are always able to walk diagonally</li> <li>Fixed character diagonal speed being applied when a character tries to move diagonally and fails.</li> <li>Some minor performance improvements</li> <li>All plugin code is documented with JSDOcs.</li> </ul>"
   },
   "EliMZ_DynamicParameters": {
     "version": "2.0.9",
@@ -144,8 +145,9 @@
     "url": "https://hakuenstudio.itch.io/eli-escape-codes-for-rpg-maker-mv"
   },
   "EliMZ_ExpByLevel": {
-    "version": "1.2.2",
-    "url": "https://hakuenstudio.itch.io/eli-exp-by-level-for-rpg-maker"
+    "version": "1.2.3",
+    "url": "https://hakuenstudio.itch.io/eli-exp-by-level-for-rpg-maker",
+    "log": "<ul> <li>Fixed the plugin parameter ‘Rule’ being with a wrong default parameter</li> <li>Fixed an issue that the plugin was calculating the total exp by the enemy troops, by iterating through them all, without considering if they are dead. I believe that could cause some problems with hidden enemies or enemies that escape from battle. Don’t know for sure, but it is fixed just in case.</li> <li>Some minor performance improvement and code clean up</li> <li>Fixed the plugin not using the default database messages to show how many exp the actor gains after the battle</li> <li>Fixed plugin not using ‘actor.finalExpRate()’, which considers the gain of exp for members inside and outside the battle, according to the database option set</li> <li>Some code clean up.</li> <li>Plugin is now properly documented with JSDOCs!</li> </ul>"
   },
   "EliMZ_ExtraMapScroll": {
     "version": "1.2.3",
