@@ -92,8 +92,9 @@
     "url": "https://hakuenstudio.itch.io/eli-customnewgame-rpg-maker-mv"
   },
   "EliMZ_CustomParameters": {
-    "version": "2.0.3",
-    "url": "https://hakuenstudio.itch.io/eli-custom-parameters-for-rpg-maker"
+    "version": "2.1.0",
+    "url": "https://hakuenstudio.itch.io/eli-custom-parameters-for-rpg-maker",
+    "log": "<ul> <li>Added 3 new note tags: CParamRate, CDebuffRate, CParamRegen. They have the intention of replicating the traits that the default parameters have.</li> <li>Fixed an issue that the hp/mp like custom parameters did not have a setter (this._paramName) like the default hp/mp parameters does have.</li> <li>Fixed an issue that Battle Log was not showing properly the custom parameter names</li> <li>Fixed an issue that when using the plugin command to change custom parameters from an enemy ID, was only being applied to one enemy, instead of all enemies with that id.</li> <li>Several performance improvements.</li> <li>Updated help file.</li> </ul>"
   },
   "EliMZ_CustomStatusMenu": {
     "version": "1.1.0",
