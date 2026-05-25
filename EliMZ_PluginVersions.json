@@ -218,8 +218,9 @@
     "url": "https://hakuenstudio.itch.io/eli-item-sounds-for-rpg-maker-mz"
   },
   "EliMZ_JumpSystem": {
-    "version": "2.5.0",
-    "url": "https://hakuenstudio.itch.io/eli-jump-system-for-rpg-maker-mv"
+    "version": "2.6.0",
+    "url": "https://hakuenstudio.itch.io/eli-jump-system-for-rpg-maker-mv",
+    "log": "<ul> <li>Added a new plugin parameters: <ul> <li><strong>Diagonal Distance Penalty</strong> → It lets you configure a penalty distance in tiles when jumping diagonally. So if the player jump distance value is 3, when jumping diagonally it can have a penalty of 1, resulting in a jumping distance of 2 tiles.</li> <li><strong>Block Jump Terrain Tags</strong> → Lets you configure terrain tags to block jump too.</li> <li><strong>You need to open your plugin parameter to check this</strong>: Change the “Jumping Z-Index” parameter to “Jumping Plus Z-Index”. Now, instead of this parameter set a fixed value to the priority type of the character, it will work additively. This was necessary because previously, if that value was 1.4 and a character had a priority of 2 (above player), it would jump and reduce its screen z value to 1.4. That makes no sense.</li> <li><strong>Landing Common Event</strong> → lets you set up a common event to be run when the player finishes jumping.</li> <li><strong>Allow Jump In Place</strong> → Let you decide if you want the jump animation to happen when the player presses to jump, but it can’t jump or the jump distance is equal to 0</li> </ul> </li> <li>Hopefully fixed an issue that even with the diagonal jump set to false on the plugin parameters, the player was able to jump diagonally when using Visustella plugins.</li> </ul>"
   },
   "EliMZ_MainMenuIndividualStatus": {
     "version": "1.0.0",
