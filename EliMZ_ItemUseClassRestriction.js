@@ -4,7 +4,6 @@
 
 /*:
 @target MZ
-@base EliMZ_Book
 
 @plugindesc ♦1.0.0♦ Restrict item targets by actor class.
 @author Hakuen Studio
