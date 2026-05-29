@@ -267,8 +267,9 @@
     "url": "https://hakuenstudio.itch.io/hakuen-studio-message-sounds-for-rpg-maker-mz/"
   },
   "EliMZ_MinimapPro": {
-    "version": "2.3.3",
-    "url": "https://hakuenstudio.itch.io/hakuen-studio-minimap"
+    "version": "2.4.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-minimap",
+    "log": "<ul> <li>Added a feature to draw transparent (or not draw ^^) tiles. So the minimap can be transparent. Just need to set a color to “transparent”. Best to assign that to a region ID.</li> <li>Fixed an issue that the Icon Minimap Marker was not properly aligned on the center of the tile.</li> <li>Fixed an issue that the background color for the full minimap scene was not being properly applied.</li> <li>Fixed a typo that noiseFilter.intensity was being written as intensity, resulting in not changing the noiseFilter intensity at all.</li> <li>Fixed the common plugin parameters not having default values for fog.</li> <li>Fixed an issue that the opacity of the main minimap was not being applied.</li> <li>Fixed an issue that the map boundaries could be messed up on tiny maps.</li> <li>Fixed the pivot table not including diagonal directions.</li> <li>Fixed an issue that when minimap has fog it is not revealing the fog as soon as the player enters on a new map.</li> <li>Hopefully fixed a jittering issue with the minimap when the player moves slowly.</li> <li>Several, a lot of performance improvements!</li> <li>Some changes on the coding structure.</li> <li>Updated help file: transparent minimap areas</li> <li>If you like the plugin, consider to give it a rate on itch io ^^</li> </ul>"
   },
   "EliMZ_MobileControls": {
     "obs":"true",
