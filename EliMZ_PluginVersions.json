@@ -75,8 +75,9 @@
     "url": "https://hakuenstudio.itch.io/eli-choice-pictures-for-rpg-maker-mz"
   },
   "EliMZ_ClassCurves": {
-    "version": "2.4.3",
-    "url": "https://hakuenstudio.itch.io/eli-class-curve-for-rpg-maker"
+    "version": "3.0.0",
+    "url": "https://hakuenstudio.itch.io/eli-class-curve-for-rpg-maker",
+    "log": "<ul> <li><strong>Attention! This will break previous versions. Make a backup before the update! You will also have set up the plugin parameters again.</strong></li> <li>Added support for creating parameter curves for Extra(X) parameters: <ul> <li>Hit Rate, Evasion Rate, Critical Rate, Critical Evasion Rate, Magic Evasion Rate, Magic Reflection Rate, Counter Attack Rate, Hp Regeneration Rate, Mp Regeneration Rate, Tp Regeneration Rate</li> </ul> </li> <li>Added support for creating parameter curves for Special(S) parameters: <ul> <li>Target Rate, Guard Effect Rate, Recovery Effect Rate, Pharmacology, Mp Cost Rate, Tp Charge Rate, Physical Damage Rate, Magical Damage Rate, Floor Damage Rate, Experience Rate</li> </ul> </li> <li>Added/Merged the EliMZ_ClassPromotion plugin with the Class Curves. Now you don’t need to use another plugin to handle Class Promotions!</li> <li>Added a new plugin parameter that lets you decide the parameters behavior when the battler levels down.</li> <li>Added a new plugin command that lets you get and store in variables the last parameter values a battler gained when leveling up or class promoted.</li> <li>Huge performance improvements!</li> <li>Fixed an issue that even if growth chance was zero, the plugin was considering as 0,99%</li> <li>Updated help file</li> <li>In case you are using any of the plugins below, make sure they all are on the version number indicated or higher: <ul> <li>EliMZ_EnemyClass → 1.4.0</li> <li>EliMZ_DynamicParameters → 3.0.1</li> <li>EliMZ_Custom Parameters → 2.1.1</li> </ul> </li> </ul>"
   },
   "EliMZ_ClassPromotion": {
     "version": "1.1.6",
@@ -92,9 +93,9 @@
     "url": "https://hakuenstudio.itch.io/eli-customnewgame-rpg-maker-mv"
   },
   "EliMZ_CustomParameters": {
-    "version": "2.1.0",
+    "version": "2.1.1",
     "url": "https://hakuenstudio.itch.io/eli-custom-parameters-for-rpg-maker",
-    "log": "<ul> <li>Added 3 new note tags: CParamRate, CDebuffRate, CParamRegen. They have the intention of replicating the traits that the default parameters have.</li> <li>Fixed an issue that the hp/mp like custom parameters did not have a setter (this._paramName) like the default hp/mp parameters does have.</li> <li>Fixed an issue that Battle Log was not showing properly the custom parameter names</li> <li>Fixed an issue that when using the plugin command to change custom parameters from an enemy ID, was only being applied to one enemy, instead of all enemies with that id.</li> <li>Several performance improvements.</li> <li>Updated help file.</li> </ul>"
+    "log": "<ul> <li>Added methods for minimum and maximum value for custom parameters. Mainly for compatibility with other plugins, like EliMZ_ClassCurves and EliMZ_EnemyClass</li> <li>Fixed an issue that Game_Action.prototype.testItemEffect was calling an alias without being declared</li> <li>In case you are using any of the plugins below, make sure they all are on the version number indicated or higher: <ul> <li>EliMZ_ClassCurves → 3.0.0</li> <li>EliMZ_DynamicParameters → 3.0.1</li> <li>EliMZ_EnemyClass → 1.4.0</li> </ul> </li> </ul> <p><strong>VERSION 2.1.0</strong></p> <ul> <li>Added 3 new note tags: CParamRate, CDebuffRate, CParamRegen. They have the intention of replicating the traits that the default parameters have.</li> <li>Fixed an issue that the hp/mp like custom parameters did not have a setter (this._paramName) like the default hp/mp parameters does have.</li> <li>Fixed an issue that Battle Log was not showing properly the custom parameter names</li> <li>Fixed an issue that when using the plugin command to change custom parameters from an enemy ID, was only being applied to one enemy, instead of all enemies with that id.</li> <li>Several performance improvements.</li> <li>Updated help file.</li> </ul>"
   },
   "EliMZ_CustomStatusMenu": {
     "version": "1.1.0",
@@ -110,9 +111,9 @@
     "log": "<ul> <li>Fixed an issue that the Enable/Disable Diagonal Move plugin command effect was being removed when a character changed image file. Meaning, if you disable a character from moving diagonally, if he changed image and that image has a diagonal movement/sprite tag, the plugin command was being overridden by it.</li> <li>Added a new argument called “Default” on the Enable/Disable Diagonal Move plugin command. This argument will remove the forced state of the plugin command and let the characters get their diagonal movement from their filenames again.</li> <li>Fixed an issue that characters with empty filenames are always able to walk diagonally</li> <li>Fixed character diagonal speed being applied when a character tries to move diagonally and fails.</li> <li>Some minor performance improvements</li> <li>All plugin code is documented with JSDOcs.</li> </ul>"
   },
   "EliMZ_DynamicParameters": {
-    "version": "3.0.0",
+    "version": "3.0.1",
     "url": "https://hakuenstudio.itch.io/eli-dynamic-parameters-for-rpg-maker",
-    "log": "<ul> <li>Attention! This version will break the previous one. So make sure to backup the previous one in case you need it. You will probably need to make your plugin parameters again if you are using a previous version.</li> <li>Added support for dynamic parameters on Actor, Class, and Enemy note fields! Previously, it would only work on States, Weapons and Armors.</li> <li>Added a new way to set Dynamic Parameters, without the need of a full template. Check more details on the help file, but now you can use on the note fields a note tag like that:<br> &lt;DynParam atk&gt;<br> return value<br> &lt;/DynParam&gt;</li> <li>Added a way to support a parameter value being based on another parameter value, like atk = (mhp/def) * 1.5</li> <li>Now every plugin parameter only accepts javascript formulas with the return keyword</li> <li>Several performance improvements.</li> <li>Changed help file</li> </ul>"
+    "log": "<ul> <li>Some minor code changes for compatibility with my other plugins.</li> <li>In case you are using any of the plugins below, make sure they all are on the version number indicated or higher: <ul> <li>EliMZ_EnemyClass → 1.4.0</li> <li>EliMZ_ClassCurves → 3.0.0</li> <li>EliMZ_Custom Parameters → 2.1.1</li> </ul> </li> </ul> <p><strong>VERSION 3.0.0</strong></p> <ul> <li>Attention! This version will break the previous one. So make sure to backup the previous one in case you need it. You will probably need to make your plugin parameters again if you are using a previous version.</li> <li>Added support for dynamic parameters on Actor, Class, and Enemy note fields! Previously, it would only work on States, Weapons and Armors.</li> <li>Added a new way to set Dynamic Parameters, without the need of a full template. Check more details on the help file, but now you can use on the note fields a note tag like that:<br> <strong>&lt;DynParam atk&gt;</strong><br> <strong>return value</strong><br> <strong>&lt;/DynParam&gt;</strong></li> <li>Added a way to support a parameter value being based on another parameter value, like atk = (mhp/def) * 1.5</li> <li>Now every plugin parameter only accepts javascript formulas with the return keyword</li> <li>Several performance improvements.</li> <li>Changed help file</li> </ul>"
   },
   "EliMZ_DynamicTroops": {
     "version": "1.0.0",
@@ -139,8 +140,9 @@
     "url": "https://hakuenstudio.itch.io/hakuen-studio-encounter-step-control-for-rpg-maker-mz"
   },
   "EliMZ_EnemyClass": {
-    "version": "1.3.2",
-    "url": "https://hakuenstudio.itch.io/eli-enemy-class-for-rpg-maker"
+    "version": "1.4.0",
+    "url": "https://hakuenstudio.itch.io/eli-enemy-class-for-rpg-maker",
+    "log": "<ul> <li>Added three ways for you to show the current level from an enemy! You can setup them on the plugin parameters</li> <li>Added plugin parameters to control how the plugin handles Enemy Transform: You can choose if you want the enemy to Keep Class, Equipment and level. Or if you want for it to get from the new enemy.</li> <li>You can now use \\v[id] on the note tags for ClassId, Initial Level, Max Level and Equips!</li> <li>The plugin commands now accept \\v[id] on all arguments that you need to set an Index or some id from the database.</li> <li>Fixed an issue with the plugin commands that use Enemy Id. When the argument “ Is For All” was true, it was getting all enemy troops instead of all enemies with the specified ID within the troop.</li> <li>Fixed an issue that when using Action pattern mode = “Learn and Require Level”, the plugin was not taking into consideration that the enemy can have more than one skill with the same id on action patterns.</li> <li>In case you are using any of the plugins below, make sure they all are on the version number indicated or higher: <ul> <li>EliMZ_ClassCurves → 3.0.0</li> <li>EliMZ_DynamicParameters → 3.0.1</li> <li>EliMZ_Custom Parameters → 2.1.1</li> </ul> </li> </ul>"
   },
   "EliMZ_EscapeCodes": {
     "version": "3.2.1",
