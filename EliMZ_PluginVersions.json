@@ -46,8 +46,9 @@
     "url": "https://hakuenstudio.itch.io/hakuen-studio-character-frames-for-rpg-maker"
   },
   "EliMZ_CharacterGeneratorPro": {
-    "version": "2.0.2",
-    "url": "https://hakuenstudio.itch.io/hakuen-studio-character-generator-for-rpg-maker-mz"
+    "version": "2.1.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-character-generator-for-rpg-maker-mz",
+    "log": "<ul> <li>Added a new plugin command that lets you create a character without the need to open a character generator scene. You can select the pieces by using the plugin command arguments.</li> <li>Fixed an issue where sometimes changing the hue on the Character Generator Scene could change the hue of other characters already created.</li> <li>Fixed another issue with hue that when a random hue was false, it could still draw the random hue value on the Scene Pieces.</li> <li>Fixed an issue that if you enter on the Generator Scene with a character that already has a Generated Character, when creating a new one for him, it could overwrite some configurations of the previous generated character.</li> <li>Fixed an issue that the plugin was not taking into consideration that a preview window could also be a non square size.</li> <li>Some performance improvement will be noticed if you have a lot of character images created!</li> </ul>"
   },
   "EliMZ_CharacterPoses": {
     "version": "2.1.0",
