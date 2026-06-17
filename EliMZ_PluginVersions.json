@@ -414,9 +414,9 @@
     "url": "https://hakuenstudio.itch.io/eli-timer-for-rpg-maker-mv"
   },
   "EliMZ_TpSystem": {
-    "version": "1.5.0",
+    "version": "1.5.1",
     "url": "https://hakuenstudio.itch.io/hakuen-studio-tp-system-for-rpg-maker",
-    "log": "<ul> <li>Added two new plugin parameters that let you optionally assign default formulas (Charge Tp and Action Tp) for all actors and enemies that miss their respective formula note tags.</li> <li>Hopefully fixed the Skill Do Not Consume TP not properly working.</li> <li>Removed some useless console log around the code</li> </ul>"
+    "log": "<ul> <li>Fixed an issue that TP may be reduced when taking damage instead of raise, when the tp gained from receiving a damage is higher than the max tp of the battler that is being hit.</li> </ul> <p><strong>1.5.0</strong></p> <ul> <li>Added two new plugin parameters that let optionally assign default formulas (Charge Tp and Action Tp) for all actors and enemies that miss their respective formula note tags.</li> <li>Hopefully fixed the Skill Do Not Consume TP not properly working.</li> <li>Removed some useless console log around the code</li> </ul>"
   },
   "EliMZ_TraitManager": {
     "version": "1.0.0",
