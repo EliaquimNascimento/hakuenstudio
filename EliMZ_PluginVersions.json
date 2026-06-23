@@ -301,9 +301,9 @@
     "url": "https://hakuenstudio.itch.io/eli-pause-game-for-rpg-maker-mv"
   },
   "EliMZ_PictureManager": {
-    "version": "1.4.6",
+    "version": "1.4.7",
     "url": "https://hakuenstudio.itch.io/hakuen-studio-picture-manager-for-rpg-maker-mz",
-    "log": "<ul> <li>Fixed an issue that the picture containers are not properly updating the pictures z layer order when you create multiple pictures with the same id but with different z index values.</li> <li>Fixed an issue on the Breath Effect plugin command that it was always being enabled when using it. The disabled breath was not properly working.</li> <li>Fixed an issue that when using the Change Settings plugin command to change a picture front file, it was not updating the anime group and mask settings of the sprite according to this change.</li> <li>Fixed an issue that when the plugin parameter for touch opacity was higher than 0, the check of the click coordinate when clicking on a picture was not taken into consideration the pictures anchor values.</li> <li>Fixed an issue that the plugin was not properly creating the initial and target positions of a picture when it is binded to the the map</li> </ul>"
+    "log": "<ul> <li>Fixed an error of trying to access all game pictures with a wrong code.</li> </ul> <p><strong>1.4.6</strong></p> <ul> <li>Fixed an issue that the picture containers are not properly updating the pictures z layer order when you create multiple pictures with the same id but with different z index values.</li> <li>Fixed an issue on the Breath Effect plugin command that it was always being enabled when using it. The disabled breath was not properly working.</li> <li>Fixed an issue that when using the Change Settings plugin command to change a picture front file, it was not updating the anime group and mask settings of the sprite according to this change.</li> <li>Fixed an issue that when the plugin parameter for touch opacity was higher than 0, the check of the click coordinate when clicking on a picture was not taken into consideration the pictures anchor values.</li> <li>Fixed an issue that the plugin was not properly creating the initial and target positions of a picture when it is binded to the the map</li> </ul>"
   },
   "EliMZ_Pictures": {
     "version": "1.4.2",
