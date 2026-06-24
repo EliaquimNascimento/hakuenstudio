@@ -20,9 +20,9 @@
     "url": "https://hakuenstudio.itch.io/hakuen-studio-battle-sounds-for-rpg-maker-mz"
   },
   "EliMZ_BitmapFontPro": {
-    "version": "2.4.1",
+    "version": "2.4.2",
     "url": "https://hakuenstudio.itch.io/eli-bitmap-font-for-rpg-maker",
-    "log": "<ul> <li>Fixed a bug that was applying “white” to a bitmap font text color even if it was set to disable.</li> <li>Fixed an issue that when applying a text color to a bitmap font, the plugin was using a wrong parameter value to apply the configured smooth value of the bitmap font being used. Resulting in smooth always equal to false.</li> <li>Fixed an issue that when using strike-through and underline after raising a font size, they are not being drawn properly.</li> <li>Greatly improve the plugin performance when drawing a lot of text and also applying text colors</li> <li>Some improvements on the help file</li> </ul>"
+    "log": "<ul> <li>Fixed a crash that happens when a bitmap is created with width and height 0. This should fix issues with the Show Picture too, that was also causing that crash.</li> </ul> <p><strong>Version 2.4.1</strong></p> <ul> <li>Fixed a bug that was applying “white” to a bitmap font text color even if it was set to disable.</li> <li>Fixed an issue that when applying a text color to a bitmap font, the plugin was using a wrong parameter value to apply the configured smooth value of the bitmap font being used. Resulting in smooth always equal to false.</li> <li>Fixed an issue that when using strike-through and underline after raising a font size, they are not being drawn properly.</li> <li>Greatly improve the plugin performance when drawing a lot of text and also applying text colors</li> <li>Some improvements on the help file</li> </ul>"
   },
   "EliMZ_Book": {
     "version": "6.1.2",
