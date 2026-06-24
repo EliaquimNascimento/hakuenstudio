@@ -360,8 +360,9 @@
     "url": "https://hakuenstudio.itch.io/hakuen-studio-lock-and-seal-equipment-for-rpg-maker"
   },
   "EliMZ_SecretEffects": {
-    "version": "1.0.0",
-    "url": "https://hakuenstudio.itch.io/hakuen-studio-secretpassive-effects-for-rpg-maker"
+    "version": "1.1.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-secretpassive-effects-for-rpg-maker",
+    "log": "<ul> <li>Added a new and alternative way to set up secret effects on the note field that let you add a condition for the secret effect to work. The previous way still works, but does not support custom conditions.<br> <strong><SecretEffects></strong><br> <strong>Index</strong>: 0<br> <strong>TargetType</strong>: PARTY<br> <strong>TargetId</strong>: return [0,1]<br> <strong>Condition</strong>: return true<br> <strong></SecretEffects></strong></li> <li>Added new target types: ALIVEPARTY, DEADPARTY, ALIVETROOP, DEADTROOP, FRIENDS, OPPONENTS, USER</li> <li>Fixed an issue that sometimes the Battle Log could still show the secret effects being used.</li> <li>Fixed an issue that using \\v[ID] on the target id from the simple/old note tag format could not work.</li> <li>Updated help file</li> </ul>"
   },
   "EliMZ_SelfSwitches": {
     "obs": "true",
