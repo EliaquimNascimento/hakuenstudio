@@ -9,8 +9,6 @@
     --color-muted: #ABCBCE;
     --color-white: #FFFFFF;
     --color-danger: #BE1522;
-    --color-gray-1: #616669;
-    --color-gray-2: #373939;
 
     --btn-radius: 4px;
     --transition-fast: 120ms ease-in-out;
@@ -24,7 +22,7 @@ body {
 /* ---------------------------------- BASE ---------------------------------- */
 
 #wrapper {
-    background-color: #1e1e2c;
+    background-color: var(--color-dark-ink);
     background-attachment: fixed;
     font-family: 'Roboto', sans-serif;
     color: var(--color-white);
@@ -237,6 +235,8 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
+
+
 /* ------------------------------- DEV LOG PAGE ----------------------------- */
 
 .inner_column.size_large {
@@ -305,6 +305,10 @@ body {
 .view_game_page .columns .right_col iframe,
 .view_game_page .columns .right_col .embed_preload {
     max-width: 100% !important;
+}
+
+.video_embed_widget.base_widget{
+    padding-bottom: 45% !important;
 }
 
 /* ---------------------------- RIGHT COLUMN IMAGES ------------------------- */
