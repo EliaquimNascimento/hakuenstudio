@@ -462,7 +462,7 @@
     "version": "1.0.0",
     "url": "https://hakuenstudio.itch.io/eli-animated-faces-for-rpg-maker-mz",
     "log": "<ul> <li>Added <strong>some utility</strong> functions to check for event triggers.</li> <li>Added a <em>plugin parameter</em> to control how the Iterate List note tag works. <a href=\"?tab=t.0#heading=h.36pck2m8ey8l\">Check help file here</a>.</li> <li>Added BattleManager.beforeSetup and afterSetup. To be used by other plugins.</li> <li>Added a new class to run a game interpreter inside code(passive Game_Interpreter).</li> <li>Added a way to verify how a battle was triggered: Map Random Encounters, Event Command, and Event Command(Same as random Encounter).</li> <li>Fixed an issue that the Eli.Input.mapGamepadButton was checking for defaultKeyboard keys when needed to check default gamepad keys.</li> </ul>",
-    "releaseDate": "20_08_2026"
+    "releaseDate": "21_08_2026"
   },
   "EliMZ_TestRelease2":{
     "version": "1.0.0",
