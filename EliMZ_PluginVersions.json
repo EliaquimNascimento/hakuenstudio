@@ -25,9 +25,9 @@
     "log": "<ul> <li>Fixed a crash that happens when a bitmap is created with width and height 0. This should fix issues with the Show Picture too, that was also causing that crash.</li> </ul> <p><strong>Version 2.4.1</strong></p> <ul> <li>Fixed a bug that was applying “white” to a bitmap font text color even if it was set to disable.</li> <li>Fixed an issue that when applying a text color to a bitmap font, the plugin was using a wrong parameter value to apply the configured smooth value of the bitmap font being used. Resulting in smooth always equal to false.</li> <li>Fixed an issue that when using strike-through and underline after raising a font size, they are not being drawn properly.</li> <li>Greatly improve the plugin performance when drawing a lot of text and also applying text colors</li> <li>Some improvements on the help file</li> </ul>"
   },
   "EliMZ_Book": {
-    "version": "6.1.3",
+    "version": "6.2.0",
     "url": "https://hakuenstudio.itch.io/eli-book-rpg-maker-mv-mz",
-    "log": "<ul> <li>Fixed an issue that was preventing the game to save when the save command or the open save screen was being used on a common event called inside another event.</li> <li>Fixed an issue on detecting the last message of a sequence of Show Texts commands, that was preventing the EliMZ_FaceWindow to properly hide/show the face window when some conditional branch logic is involved close to the show text command.</li> </ul> <p><strong>Version 6.1.2</strong></p> <ul> <li>Added a direct argument on the forceFinish methods of the Anime classes. This will make it possible to finish an anime directly(applying the target value), according to the direction.</li> <li>Fixed an issue that the AnimeCollection class was calling a wrong function name to force finish all anime childrens.</li> <li>Fixed an issue that plugins on subfolders inside the plugins folders are not being scanned for updated versions.</li> <li>Made some changes on the style of the version update manager.</li> <li>Add a way to show an update log of the plugin you click to update.</li> </ul>"
+    "log": "<ul> <li>Added a new feature to be used by other plugins: Passive Plugin Commands. They will work like comments or note tags. When previously you needed to use a comment tag to set up something, now you will use Passive Plugin Commands, that will work just like the comments: They will not be executed while the event page is running, but they will be executed/read when iterating through the event list.</li> <li>Added dark and light theme to the Version manager interface</li> <li>Added a way to show new Eli plugin releases</li> <li>Improved the Eli.PluginManager.createIdList</li> </ul> <p><strong>Version 6.1.3</strong></p> <ul> <li>Fixed an issue that was preventing the game to save when the save command or the open save screen was being used on a common event called inside another event.</li> <li>Fixed an issue on detecting the last message of a sequence of Show Texts commands, that was preventing the EliMZ_FaceWindow to properly hide/show the face window when some conditional branch logic is involved close to the show text command.</li> </ul> <p><strong>Version 6.1.2</strong></p> <ul> <li>Added a direct argument on the forceFinish methods of the Anime classes. This will make it possible to finish an anime directly(applying the target value), according to the direction.</li> <li>Fixed an issue that the AnimeCollection class was calling a wrong function name to force finish all anime childrens.</li> <li>Fixed an issue that plugins on subfolders inside the plugins folders are not being scanned for updated versions.</li> <li>Made some changes on the style of the version update manager.</li> <li>Add a way to show an update log of the plugin you click to update.</li> </ul>"
   },
   "EliMZ_ButtonCommonEvents": {
     "version": "1.7.3",
@@ -68,9 +68,9 @@
     "url": "https://hakuenstudio.itch.io/eli-checkpoint-window-rpg-maker-mv"
   },
   "EliMZ_ChoiceManager": {
-    "version": "2.1.8",
+    "version": "2.1.9",
     "url": "https://hakuenstudio.itch.io/eli-choice-manager-for-rpg-maker",
-    "log": "<ul> <li>Fixed the crash caused by the last update: “TypeError Cannot set property 'Game_Picture_initialize' of undefined”</li> </ul>"
+    "log": "<ul> <li>Moved some dependencies from Eli Book to this plugin.</li> <li>Some code clean up.</li> </ul> <p><strong>Version 2.1.8</strong></p> <ul> <li>Fixed the crash caused by the last update: “TypeError Cannot set property 'Game_Picture_initialize' of undefined”</li> </ul>"
   },
   "EliMZ_ChoicePictures": {
     "version": "1.3.3",
@@ -462,12 +462,12 @@
     "version": "1.0.0",
     "url": "https://hakuenstudio.itch.io/eli-animated-faces-for-rpg-maker-mz",
     "log": "<ul> <li>Added <strong>some utility</strong> functions to check for event triggers.</li> <li>Added a <em>plugin parameter</em> to control how the Iterate List note tag works. <a href=\"?tab=t.0#heading=h.36pck2m8ey8l\">Check help file here</a>.</li> <li>Added BattleManager.beforeSetup and afterSetup. To be used by other plugins.</li> <li>Added a new class to run a game interpreter inside code(passive Game_Interpreter).</li> <li>Added a way to verify how a battle was triggered: Map Random Encounters, Event Command, and Event Command(Same as random Encounter).</li> <li>Fixed an issue that the Eli.Input.mapGamepadButton was checking for defaultKeyboard keys when needed to check default gamepad keys.</li> </ul>",
-    "releaseDate": "17_08_2026"
+    "releaseDate": "21_08_2026"
   },
   "EliMZ_TestRelease2":{
     "version": "1.0.0",
     "url": "https://hakuenstudio.itch.io/eli-animated-faces-for-rpg-maker-mz",
     "log": "",
-    "releaseDate": "15_08_2026"
+    "releaseDate": "24_08_2026"
   }
 }
