@@ -251,8 +251,9 @@
     "url": "https://hakuenstudio.itch.io/eli-max-items-for-rpg-maker"
   },
   "EliMZ_MessageActions": {
-    "version": "2.1.4",
-    "url": "https://hakuenstudio.itch.io/eli-message-actions-for-rpg-maker"
+    "version": "2.1.5",
+    "url": "https://hakuenstudio.itch.io/eli-message-actions-for-rpg-maker",
+    "log": "<ul> <li>Improved the feature that draws images into the message text by adding a preload into the code.</li> <li>Fixed the persistent alignment plugin parameter not working properly on the first line of a new message window.</li> <li>Fixed some problems with text alignment that it was not always calculating text positions correctly.</li> <li>Fixed a compatibility issue with most of <strong>CGMZ plugins</strong>. Previously we had a problem where some command windows were not drawing their command names.</li> <li>Fixed a compatibility issue with <strong>Visustella message core</strong> that was causing the icons not be drawn on the choice texts using the escape codes to draw icons.</li> <li>Fixed an issue that the alignment was not working properly with RTL texts.</li> <li>Fixed an issue that underline, strikethrough and text background was not being drawn properly when the alignment is not left.</li> <li>The escape codes for bgm/bgs/me/se now accept 0 as the volume value.</li> <li>Fixed an issue that when using the escape codes to change the face image when the windows does not have any face, was not fixing the text positions when a face was added.</li> </ul>"
   },
   "EliMZ_MessageCommonEvent": {
     "version": "1.3.0",
