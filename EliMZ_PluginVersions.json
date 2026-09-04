@@ -260,8 +260,9 @@
     "url": "https://hakuenstudio.itch.io/eli-message-common-event-for-rpg-maker"
   },
   "EliMZ_MessageManager": {
-    "version": "1.2.3",
-    "url": "https://hakuenstudio.itch.io/hakuen-studio-message-manager-for-rpg-maker"
+    "version": "1.3.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-message-manager-for-rpg-maker",
+    "log": "<ul> <li>Added text speed</li> <li>Added a way to change windowskin for the message and name window</li> <li>Added a way to change the name window width. Optionally let it fit with the size of any name</li> <li>Added an animated custom cursor image to be used.</li> <li>Added a way for the cursor to follow the text on the message window</li> <li>Added a way for you to decide on what position you want the cursor to be inside the message window(Follow cursor needs to be off)</li> <li>Added 3 new plugins commands that let you change the message settings, custom cursor image and message window position.</li> <li>Changed the old Anime classes for the new ones created on EliMZ_Book</li> <li>Fixed an issue where the Face of the message window was not supporting sizes that are not a square. This is mainly a compatibility with other plugins in case they change that.</li> </ul>"
   },
   "EliMZ_MessageScroll": {
     "version": "1.0.0",
