@@ -444,6 +444,12 @@
     "version": "1.1.0",
     "url": "https://hakuenstudio.itch.io/hakuen-studio-weakness-bonus"
   },
+  "EliMZ_WindowCursor": {
+    "version": "1.0.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-window-custom-cursor-for-rpg-maker-mz",
+    "log": "<h1><strong>Introduction</strong></h1> <p>This plugin lets you customize the cursors used by your game's windows! You can assign static images or spritesheets to individual windows, or use a single cursor that moves from one window to another for smoother menu navigation. You can also display two cursors on the same window, such as one on the left and another on the right. In addition to spritesheet animation, the plugin lets you adjust properties such as scale, anchor, alpha, and more.</p> <h1><strong>Features</strong></h1> <ul> <li>Use up to two custom cursors at the same time!</li> <li>Choose between the default RPG Maker cursor, custom cursors, or both!</li> <li>Use static images or spritesheets!</li> <li>Configure anchors, offsets, alpha, and scale individually for each cursor!</li> <li>Animate cursor movement when the selection changes and when a window becomes active!</li> <li>Configure different cursors for specific windows!</li> <li>Optionally use a single cursor in the scene that moves from one window to another!</li> </ul>",
+    "releaseDate": "09_28_2026"
+  },
   "EliMZ_WindowSkin": {
     "version": "3.0.1",
     "url": "https://hakuenstudio.itch.io/eli-change-window-skin-for-rpg-maker"
