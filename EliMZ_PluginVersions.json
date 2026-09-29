@@ -444,6 +444,12 @@
     "version": "1.1.0",
     "url": "https://hakuenstudio.itch.io/hakuen-studio-weakness-bonus"
   },
+  "EliMZ_WindowCommandEffects": {
+    "version": "1.0.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-window-custom-cursor-for-rpg-maker-mz",
+    "log": "<p>EliMZ Window Command Effects lets you apply different visual effects to selected and unselected commands in selectable RPG Maker MZ windows.</p> <p>You can configure a default behavior for multiple windows, create custom settings for specific windows and, inside them, define exclusive effects for certain commands by symbol, index, or a combination of both. The plugin also has its own flow for the <strong>Show Choices</strong> event command, allowing temporary or permanent effects for all choices or only specific indexes.</p> <h1><strong>Features</strong></h1> <ul> <li>Applies different effects to selected and unselected commands.</li> <li>Can apply a default configuration to all command windows.</li> <li>Lets you exclude windows from the default effects.</li> <li>Lets you create custom configurations for specific windows.</li> <li>Lets you configure specific effects for specific commands by <strong>Symbol</strong>, <strong>Index</strong>, or <strong>Symbol + Index</strong>.</li> <li>Lets you apply effects only to the text or to all visual content inside the command area, depending on the effect.</li> <li>Supports Color, Alpha, Scale, Rotation, Offset, Skew, Flip, Hue, Grayscale, Invert, Blur, and Glow.</li> <li>Supports animated Pulse, Shake, and Floating effects.</li> <li>Supports Outline, Font Size, Bold, Italic, Font Face, Underline, and Strike for text.</li> <li>Lets you configure <strong>Show Choices</strong> specifically through plugin commands.</li> </ul>",
+    "releaseDate": "09_29_2026"
+  },
   "EliMZ_WindowCursor": {
     "version": "1.0.0",
     "url": "https://hakuenstudio.itch.io/hakuen-studio-window-custom-cursor-for-rpg-maker-mz",
