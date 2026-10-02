@@ -109,6 +109,12 @@
     "version": "1.0.3",
     "url": "https://hakuenstudio.itch.io/hakuen-studio-death-battler-sprites-for-rpg-maker"
   },
+  "EliMZ_DebugTools": {
+    "version": "1.0.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-debug-tools-for-rpg-maker-mz",
+    "log": "<p>This plugin had the intention to only let test my other plugins easier. At first it would be a simple interface to execute plugin commands on the fly, to test them. Because by default, I would need to create a plugin command on an event page and then hit playtest. If something is wrong, I would need to open the event, change the plugin command and hit playtest again.<br> Some plugins with one or two plugin commands are ok with that, but as they get bigger and more complex they get more time consuming this process will take.</p> <p>But I did a plugin commission (EliMZ_Pathfinding) that had more than 20 plugin commands, and each one had a lot of possibilities. So I tried to make this better for that commission, as so, it ended up being not only a plugin command test interface, but a Debug App!</p> <h1><strong>Features</strong></h1> <ul> <li>Let you test plugin commands on the fly with an easier interface!</li> <li>Let you copy and paste plugin commands from the RPG Maker event page to the app, and the other way around!</li> <li>Easily navigate through other plugins and their commands</li> <li>Favorite commands</li> <li>See a list of recent commands used</li> <li>Access database data like actor id, party members, skills with the context menu(right click on an argument field)</li> <li>Easier access to window colors and any colors in general(hex, html and rgb formats)</li> </ul>",
+    "releaseDate": "01_10_2026"
+  },
   "EliMZ_DiagonalCharacters": {
     "version": "1.0.3",
     "url": "https://hakuenstudio.itch.io/hakuen-studio-diagonal-characters-for-rpg-maker",
@@ -448,13 +454,13 @@
     "version": "1.0.0",
     "url": "https://hakuenstudio.itch.io/hakuen-studio-window-custom-cursor-for-rpg-maker-mz",
     "log": "<p>EliMZ Window Command Effects lets you apply different visual effects to selected and unselected commands in selectable RPG Maker MZ windows.</p> <p>You can configure a default behavior for multiple windows, create custom settings for specific windows and, inside them, define exclusive effects for certain commands by symbol, index, or a combination of both. The plugin also has its own flow for the <strong>Show Choices</strong> event command, allowing temporary or permanent effects for all choices or only specific indexes.</p> <h1><strong>Features</strong></h1> <ul> <li>Applies different effects to selected and unselected commands.</li> <li>Can apply a default configuration to all command windows.</li> <li>Lets you exclude windows from the default effects.</li> <li>Lets you create custom configurations for specific windows.</li> <li>Lets you configure specific effects for specific commands by <strong>Symbol</strong>, <strong>Index</strong>, or <strong>Symbol + Index</strong>.</li> <li>Lets you apply effects only to the text or to all visual content inside the command area, depending on the effect.</li> <li>Supports Color, Alpha, Scale, Rotation, Offset, Skew, Flip, Hue, Grayscale, Invert, Blur, and Glow.</li> <li>Supports animated Pulse, Shake, and Floating effects.</li> <li>Supports Outline, Font Size, Bold, Italic, Font Face, Underline, and Strike for text.</li> <li>Lets you configure <strong>Show Choices</strong> specifically through plugin commands.</li> </ul>",
-    "releaseDate": "09_29_2026"
+    "releaseDate": "29_09_2026"
   },
   "EliMZ_WindowCursor": {
     "version": "1.0.0",
     "url": "https://hakuenstudio.itch.io/hakuen-studio-window-custom-cursor-for-rpg-maker-mz",
     "log": "<h1><strong>Introduction</strong></h1> <p>This plugin lets you customize the cursors used by your game's windows! You can assign static images or spritesheets to individual windows, or use a single cursor that moves from one window to another for smoother menu navigation. You can also display two cursors on the same window, such as one on the left and another on the right. In addition to spritesheet animation, the plugin lets you adjust properties such as scale, anchor, alpha, and more.</p> <h1><strong>Features</strong></h1> <ul> <li>Use up to two custom cursors at the same time!</li> <li>Choose between the default RPG Maker cursor, custom cursors, or both!</li> <li>Use static images or spritesheets!</li> <li>Configure anchors, offsets, alpha, and scale individually for each cursor!</li> <li>Animate cursor movement when the selection changes and when a window becomes active!</li> <li>Configure different cursors for specific windows!</li> <li>Optionally use a single cursor in the scene that moves from one window to another!</li> </ul>",
-    "releaseDate": "09_28_2026"
+    "releaseDate": "28_09_2026"
   },
   "EliMZ_WindowSkin": {
     "version": "3.0.1",
