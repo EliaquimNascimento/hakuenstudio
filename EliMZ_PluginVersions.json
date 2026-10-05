@@ -126,8 +126,9 @@
     "log": "<ul> <li>Some minor code changes for compatibility with my other plugins.</li> <li>In case you are using any of the plugins below, make sure they all are on the version number indicated or higher: <ul> <li>EliMZ_EnemyClass → 1.4.0</li> <li>EliMZ_ClassCurves → 3.0.0</li> <li>EliMZ_Custom Parameters → 2.1.1</li> </ul> </li> </ul> <p><strong>VERSION 3.0.0</strong></p> <ul> <li>Attention! This version will break the previous one. So make sure to backup the previous one in case you need it. You will probably need to make your plugin parameters again if you are using a previous version.</li> <li>Added support for dynamic parameters on Actor, Class, and Enemy note fields! Previously, it would only work on States, Weapons and Armors.</li> <li>Added a new way to set Dynamic Parameters, without the need of a full template. Check more details on the help file, but now you can use on the note fields a note tag like that:<br> <strong>&lt;DynParam atk&gt;</strong><br> <strong>return value</strong><br> <strong>&lt;/DynParam&gt;</strong></li> <li>Added a way to support a parameter value being based on another parameter value, like atk = (mhp/def) * 1.5</li> <li>Now every plugin parameter only accepts javascript formulas with the return keyword</li> <li>Several performance improvements.</li> <li>Changed help file</li> </ul>"
   },
   "EliMZ_DynamicTroops": {
-    "version": "1.0.0",
-    "url": "https://hakuenstudio.itch.io/hakuen-studio-dynamic-troops-for-rpg-maker-mz"
+    "version": "1.0.1",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-dynamic-troops-for-rpg-maker-mz",
+    "log": "<ul> <li>Fixed an issue that when adding new enemies into the battle, the plugin was making old enemies that also were added with plugin commands reappear again, even if they are dead. Thanks PSIGuy for the report!</li> <li>Fixed a behavior that when adding new enemies into the battle with plugin commands, the plugin was changing the layer order of the Actor Sprites to be below the Enemy Sprites. In fact, it should be the opposite. This is just a fix to make the plugin keep working as the RPG Maker MZ does.</li> </ul>"
   },
   "EliMZ_EasingPicture": {
     "version": "1.2.4",
