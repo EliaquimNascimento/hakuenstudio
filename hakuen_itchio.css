@@ -288,13 +288,25 @@ body {
     margin: 0 !important;
 }
 
+/* --------------------------------- TABLES --------------------------------- */
+
+.user_formatted table td,
+.user_formatted table th {
+    padding: 8px 10px;
+}
+
+.user_formatted table td p,
+.user_formatted table th p {
+    margin: 0;
+}
+
 /* ------------------------------- EMBEDS/VIDEO ----------------------------- */
 
-.view_game_page .columns .right_col iframe,
+.view_game_page .columns .right_col iframe:not([src*="itch.io/embed/"]),
 .view_game_page .columns .right_col .embed_preload,
 .embed_preload,
 .embed_preload youtube_preload,
-.user_formatted iframe {
+.user_formatted iframe:not([src*="itch.io/embed/"]) {
     width: 640px !important;
     height: 360px !important;
     display: block !important;
@@ -309,6 +321,16 @@ body {
 
 .video_embed_widget.base_widget{
     padding-bottom: 45% !important;
+}
+
+/* ---------------------------- ITCH.IO EMBEDS ------------------------------ */
+
+.user_formatted iframe[src*="itch.io/embed/"],
+.view_game_page .columns .right_col iframe[src*="itch.io/embed/"] {
+    display: block !important;
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 /* ---------------------------- RIGHT COLUMN IMAGES ------------------------- */
