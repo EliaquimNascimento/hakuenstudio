@@ -222,8 +222,10 @@
     "url": "https://hakuenstudio.itch.io/hakuen-studio-gold-icon-for-rpg-maker-mv-mz"
   },
   "EliMZ_HelpWindows": {
-    "version": "1.2.3",
-    "url": "https://hakuenstudio.itch.io/eli-help-windows-for-rpg-maker-mv"
+    "version": "1.3.0",
+    "url": "https://hakuenstudio.itch.io/eli-help-windows-for-rpg-maker-mv",
+    "log": "<ul> <li>Added new Window Position and Size settings, allowing custom X/Y positions and width.</li> <li>Added the Refresh Help Window plugin command to update displayed help text without moving the selection cursor.</li> <li>Added a new Equip Slot section to set up their help texts. When enabled, the slots with equipments shows the equip descriptions automatically</li> <li>Now the Symbol / Index plugin parameter has a list of all default rpg maker mz symbols.</li> <li>Changed Window Width to support Screen Width or a custom pixel width.</li> <li>Improved performance on text updates.</li> <li>Improved compatibility with other plugins that modify menu and battle windows.</li> <li>Improved code organization and updated plugin parameters and descriptions.</li> <li>Fixed the Name Input Help Text plugin command not working.</li> <li>Fixed crashes caused by missing help text entries in Name Input, Number Input, and Save/Load windows.</li> <li>Fixed Skill Type and Equipment Slot help texts not appear correctly.</li> <li>Fixed the Game End help window using the Options window position settings.</li> <li>Fixed the Title Screen help window ignoring the configured number of lines.</li> <li>Fixed item descriptions being modified when displayed in help windows.</li> <li>Fixed compatibility issue with EliMZ_ChoiceManager. Now they can both work together!</li> </ul>",
+    "releaseDate": "19_11_2026"
   },
   "EliMZ_HoldFade": {
     "version": "1.1.3",
@@ -382,8 +384,10 @@
     "log": "<ul> <li><strong>ATTENTION</strong>! This version breaks the previous one. If you update, you will need to start a new game and set up the plugin parameters again.</li> <li>Added a RogueLike / PermaDeath system: <ul> <li>Can prevent the player from saving into another save slot instead of the current one</li> <li>Can delete save files automatically before the game goes into the Game Over scene</li> <li>Added a switch that reflects the value of the permadeath.</li> <li>Added an optional window after hitting the new game to choose permadeath or not.</li> </ul> </li> <li>Optionally added a confirmation window when press ok on the slot files of the save and load scenes.</li> <li>Optionally add Copy and Delete commands to the confirmation window, so you can copy and delete slot files from the load and save scene!</li> <li>Fixed a rare issue that could happen when deleting a save file.</li> <li>Several performance upgrades.</li> </ul>"
   },
   "EliMZ_ScreenManager": {
-    "version": "1.0.1",
-    "url": "https://hakuenstudio.itch.io/hakuen-studio-screen-manager-for-rpg-maker-mz"
+    "version": "1.1.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-screen-manager-for-rpg-maker-mz",
+    "log": "<ul> <li>Added support to work with more than one monitor.</li> <li>Fixed an issue that when changing resolutions on Scene Options, the scene was not updating to the new resolution, only when you go back to the Scene Menu.</li> <li>Fixed an issue that the calculation was not taking into consideration the windows desktop bar on windowed games.</li> <li>Fixed an issue that automatic scaling with Integer Scale set to false, was not creating fractionary scales.</li> <li>Fixed an issue on playtest that the screen manager was replacing the game window position set on the EliMZ Book. This only affects playtest.</li> </ul>",
+    "releaseDate": "19_11_2026"
   },
   "EliMZ_SealAndLockEquip": {
     "version": "1.3.0",
