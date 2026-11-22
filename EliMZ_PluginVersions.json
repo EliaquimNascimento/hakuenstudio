@@ -324,6 +324,18 @@
     "version": "1.0.2",
     "url": "https://hakuenstudio.itch.io/hakuen-studio-number-comma-for-rpg-maker"
   },
+  "EliMZ_Pathfinding": {
+    "version": "1.0.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-pathfinding-for-rpg-maker-mz",
+    "log": "Highly customizable and very good performance! This plugin adds an advanced pathfinding system to RPG Maker MZ, giving you more control over how characters move across the map. With the default RPG Maker movement, a character usually checks one direction at a time when trying to reach a target. EliMZ Pathfinding can look for a complete route instead, taking walls, obstacles, other characters, and your movement rules into account. You can use it for simple movements, such as sending an event to a particular tile, or for more complex situations, such as enemies chasing the player, guards protecting an area, and groups of characters moving together.",
+    "releaseDate": "11_22_2026"
+  },
+  "EliMZ_Pathfinding_Debug": {
+    "version": "1.0.0",
+    "url": "https://hakuenstudio.itch.io/hakuen-studio-pathfinding-for-rpg-maker-mz",
+    "log": "EliMZ Pathfinding Debug is an optional app that helps you test and understand the Pathfinding plugin while working on your game. Instead of changing an event, starting a playtest, checking the result, and repeating the process for every adjustment, you can use this app to inspect the map, try movement commands, and compare different pathfinding settings in a visual interface. It is especially useful when you want to see why a character cannot reach a destination or which search settings work better for a particular map.",
+    "releaseDate": "11_22_2026"
+  },
   "EliMZ_PartyLeaderCommonEvent": {
     "version": "1.0.0",
     "url": "https://hakuenstudio.itch.io/hakuen-studio-party-leader-common-event-rpg-maker-mz"
